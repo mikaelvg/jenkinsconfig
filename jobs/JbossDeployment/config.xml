@@ -21,7 +21,7 @@
     <submoduleCfg class="list"/>
     <extensions/>
   </scm>
-  <assignedNode>slave-docker-c2be14fa</assignedNode>
+  <assignedNode>docker-slave01-8e399f83</assignedNode>
   <canRoam>false</canRoam>
   <disabled>false</disabled>
   <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
@@ -30,8 +30,7 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>docker -v
-docker build -t myjboss .</command>
+      <command>docker -v</command>
     </hudson.tasks.Shell>
   </builders>
   <publishers/>
