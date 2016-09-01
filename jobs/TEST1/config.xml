@@ -20,7 +20,7 @@
     <submoduleCfg class="list"/>
     <extensions/>
   </scm>
-  <assignedNode>ab2ad6548e8f-50baf263</assignedNode>
+  <assignedNode>slave-docker-c2be14fa</assignedNode>
   <canRoam>false</canRoam>
   <disabled>false</disabled>
   <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
@@ -29,7 +29,8 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>echo &quot;hello world test&quot;</command>
+      <command>echo &quot;hello world test&quot;
+hostname </command>
     </hudson.tasks.Shell>
   </builders>
   <publishers/>
