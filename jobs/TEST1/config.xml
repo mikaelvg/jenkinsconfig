@@ -30,7 +30,10 @@
   <builders>
     <hudson.tasks.Shell>
       <command>echo &quot;hello world test&quot;
-hostname </command>
+hostname 
+docker ps
+docker images
+docker -v</command>
     </hudson.tasks.Shell>
   </builders>
   <publishers/>
