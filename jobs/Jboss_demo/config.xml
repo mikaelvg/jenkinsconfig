@@ -8,8 +8,8 @@
     <configVersion>2</configVersion>
     <userRemoteConfigs>
       <hudson.plugins.git.UserRemoteConfig>
-        <url>https://github.com/ericliboon/SampleJerseyApp.git</url>
-        <credentialsId>e91fdf10-28c6-48cb-951b-ce4991e8ba6d</credentialsId>
+        <url>git@github.com:wrnolasco/SampleJerseyApp.git</url>
+        <credentialsId>d759dcfa-0300-4343-8862-9454b89aa833</credentialsId>
       </hudson.plugins.git.UserRemoteConfig>
     </userRemoteConfigs>
     <branches>
@@ -32,8 +32,8 @@
     <hudson.tasks.Shell>
       <command>docker -v
 cd $WORKSPACE
-docker build -t myjboss .
-docker run -dPi -t myjboss </command>
+docker build -t jboss_demo .
+docker run -dPi -t jboss_demo </command>
     </hudson.tasks.Shell>
   </builders>
   <publishers/>
