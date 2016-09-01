@@ -30,7 +30,8 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>docker -v</command>
+      <command>docker -v
+docker build -t myjboss .</command>
     </hudson.tasks.Shell>
   </builders>
   <publishers/>
