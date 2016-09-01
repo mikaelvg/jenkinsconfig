@@ -32,7 +32,8 @@
     <hudson.tasks.Shell>
       <command>docker -v
 cd $WORKSPACE
-docker build -t myjboss .</command>
+docker build -t myjboss .
+docker run -name jboss-eap -dPi -t myjboss </command>
     </hudson.tasks.Shell>
   </builders>
   <publishers/>
