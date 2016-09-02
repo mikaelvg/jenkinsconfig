@@ -32,18 +32,18 @@
       <command>pwd
 ls -lrt
 
-docker build -t jboss_demo .
-docker run -d -p 7700:8080 jboss_demo
+#docker build -t jboss_demo .
+docker run -d -p 9800:8080 ericliboon/jenkins-ubuntu-rsa
 
 
-docker ps | grep jboss_demo
+docker ps | grep rsa
 
 
 sleep 15
 
 #echo &quot;Check http://128.199.80.136:7700/SampleJerseyApp-1.0-SNAPSHOT&quot;
 
-echo &quot;Check http://128.199.80.136:7700/helloworld&quot;</command>
+#echo &quot;Check http://128.199.80.136:7700/helloworld&quot;</command>
     </hudson.tasks.Shell>
   </builders>
   <publishers/>
