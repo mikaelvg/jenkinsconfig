@@ -32,12 +32,13 @@
       <command>pwd
 ls -lrt
 
-cat Dockerfile
-
 docker build -t jboss_demo .
 docker run -d -p 7700:8080 jboss_demo
 
 docker ps | grep jboss_demo
+
+
+sleep 15
 
 #echo &quot;Check http://128.199.80.136:7700/SampleJerseyApp-1.0-SNAPSHOT&quot;
 
