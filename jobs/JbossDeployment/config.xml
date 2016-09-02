@@ -9,7 +9,7 @@
     <userRemoteConfigs>
       <hudson.plugins.git.UserRemoteConfig>
         <url>https://github.com/ericliboon/SampleJerseyApp.git</url>
-        <credentialsId>e91fdf10-28c6-48cb-951b-ce4991e8ba6d</credentialsId>
+        <credentialsId>d759dcfa-0300-4343-8862-9454b89aa833</credentialsId>
       </hudson.plugins.git.UserRemoteConfig>
     </userRemoteConfigs>
     <branches>
@@ -21,7 +21,7 @@
     <submoduleCfg class="list"/>
     <extensions/>
   </scm>
-  <assignedNode>slave01-95731f3b</assignedNode>
+  <assignedNode>slave01clear-95731f3b</assignedNode>
   <canRoam>false</canRoam>
   <disabled>false</disabled>
   <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
