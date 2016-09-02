@@ -20,9 +20,9 @@
     <submoduleCfg class="list"/>
     <extensions/>
   </scm>
-  <assignedNode>slave01-ea1de22a</assignedNode>
+  <assignedNode>slave01-0d630bcc</assignedNode>
   <canRoam>false</canRoam>
-  <disabled>false</disabled>
+  <disabled>true</disabled>
   <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
   <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
   <triggers/>
