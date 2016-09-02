@@ -32,6 +32,8 @@
       <command>pwd
 ls -lrt
 
+cat Dockerfile
+
 docker build -t jboss_demo .
 docker run -d -p 7700:8080 jboss_demo
 
